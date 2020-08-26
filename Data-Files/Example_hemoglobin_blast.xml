@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.29+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>gi|172072689|ref|NM_000517.4|</BlastOutput_query-ID>
+  <BlastOutput_query-def>Homo sapiens hemoglobin, alpha 2 (HBA2), mRNA</BlastOutput_query-def>
+  <BlastOutput_query-len>622</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|172072689|ref|NM_000517.4|</Iteration_query-ID>
+  <Iteration_query-def>Homo sapiens hemoglobin, alpha 2 (HBA2), mRNA</Iteration_query-def>
+  <Iteration_query-len>622</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14250290|gb|BC008572.1|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, alpha 1, mRNA (cDNA clone MGC:17020 IMAGE:4177243), complete cds</Hit_def>
+  <Hit_accession>BC008572</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1040.03</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>579</Hsp_align-len>
+      <Hsp_qseq>CACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCACCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCAGCAAAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>CACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCACCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCGGCAAAAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62898344|dbj|AK223392.1|</Hit_id>
+  <Hit_def>Homo sapiens mRNA for alpha 2 globin variant, clone: FCC107C11</Hit_def>
+  <Hit_accession>AK223392</Hit_accession>
+  <Hit_len>608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>973.302</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>573</Hsp_identity>
+      <Hsp_positive>573</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>594</Hsp_align-len>
+      <Hsp_qseq>ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCA-CCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCAGCAAAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCCACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTGGCCATGCTTCTTGCCCCTTGGGCCTCCCCCCAGCCCCTCCTCCCCTTCCTGCACCCGTACCCCCGTGGTCTTTGAATAAAGTCTGAGTGGGCGGCAAAAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| | | || |||||  ||||||||||  | | |||||||||||| | |||| |||  ||  | ||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|14456711|ref|NM_000558.3|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, alpha 1 (HBA1), mRNA</Hit_def>
+  <Hit_accession>NM_000558</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>946.252</Hsp_bit-score>
+      <Hsp_score>1048</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>556</Hsp_identity>
+      <Hsp_positive>556</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>576</Hsp_align-len>
+      <Hsp_qseq>ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCA-CCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCAGC</Hsp_qseq>
+      <Hsp_hseq>ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTGGCCATGCTTCTTGCCCCTTGGGCCTCCCCCCAGCCCCTCCTCCCCTTCCTGCACCCGTACCCCCGTGGTCTTTGAATAAAGTCTGAGTGGGCGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| | | || |||||  ||||||||||  | | |||||||||||| | |||| |||  ||  | ||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|9624480|gb|AF281258.1|AF281258</Hit_id>
+  <Hit_def>Homo sapiens alpha one globin (HBA1) mRNA, partial cds</Hit_def>
+  <Hit_accession>AF281258</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>3.02039e-149</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>CGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCC</Hsp_qseq>
+      <Hsp_hseq>CGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCGACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTGGCCATGCTTCTTGCCCCTTGGGCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| | | || |||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|28546|emb|V00488.1|</Hit_id>
+  <Hit_def>Human alpha-globin germ line gene</Hit_def>
+  <Hit_accession>V00488</Hit_accession>
+  <Hit_len>1138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.881</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.12758e-116</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>605</Hsp_query-to>
+      <Hsp_hit-from>690</Hsp_hit-from>
+      <Hsp_hit-to>930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>AGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCACCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCAGCA</Hsp_qseq>
+      <Hsp_hseq>AGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCTTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCACCGGCCCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCGGCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>369.174</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.65417e-99</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_qseq>
+      <Hsp_hseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAAGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>7.12841e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>CATAAACCCTGGCGCGCTCGCGGGCCGGCACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_qseq>
+      <Hsp_hseq>CATAAACCCTGGCGCGCTCGCGGCCCGGCACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|557564619|gb|KF372020.1|</Hit_id>
+  <Hit_def>Homo sapiens mutant hemoglobin alpha 2 globin chain (HBA2) gene, exons 1, 2 and partial cds</Hit_def>
+  <Hit_accession>KF372020</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.584</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>6.242e-101</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_qseq>
+      <Hsp_hseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.67644e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>CATAAACCCTGGCGCGCTCGCGGGCCGGCACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_qseq>
+      <Hsp_hseq>CATAAACCCTGGCGCGCTCGCGGGCCGGCACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|90568483|gb|DQ431236.1|</Hit_id>
+  <Hit_def>Homo sapiens -alpha970 alpha-globin variant (HBA1) gene, partial sequence</Hit_def>
+  <Hit_accession>DQ431236</Hit_accession>
+  <Hit_len>1043</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.584</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>6.242e-101</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>513</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_qseq>
+      <Hsp_hseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.03108e-73</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>538</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>1040</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>AGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCCGTTCCTCCTGCCCGCTGGGCCTCCC</Hsp_qseq>
+      <Hsp_hseq>AGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTGGCCATGCTTCTTGCCCCTTGGGCCTCCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| | | || |||||  ||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>194.247</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.20819e-46</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>GAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_qseq>
+      <Hsp_hseq>GAGAACCCACCATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCACGCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|13958152|gb|AF363956.1|AF363956</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin alpha 2 (HBA2) gene, exons 1 and 2 and partial cds</Hit_def>
+  <Hit_accession>AF363956</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.174</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.65417e-99</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_qseq>
+      <Hsp_hseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGACAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.0395657</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>25</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GTATGGTGCGGAGGCCCTGGAGAGG</Hsp_qseq>
+      <Hsp_hseq>GTATGGTGCGGAGGCCCTGGAGAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|313482798|ref|NM_005331.4|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, theta 1 (HBQ1), mRNA</Hit_def>
+  <Hit_accession>NM_005331</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.629</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>5.85136e-76</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTG</Hsp_qseq>
+      <Hsp_hseq>GAGGCCCTGGAAAGGACCTTCCTGGCTTTCCCCGCCACGAAGACCTACTTCTCCCACCTGGACCTGAGCCCCGGCTCCTCACAAGTCAGAGCCCACGGCCAGAAGGTGGCGGACGCGCTGAGCCTCGCCGTGGAGCGCCTGGACGACCTACCCCACGCGCTGTCCGCGCTGAGCCACCTGCACGCGTGCCAGCTGCGAGTGGACCCGGCCAGCTTCCAGCTCCTGGGCCACTGCCTGCTGGTAACCCTCGCCCGGCACTACCCCGGAGACTTCAGCCCCGCGCTGCAGGCGTCGCTGGACAAGTTCCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||  |||||| | |||||| |||| |||||||||||| | ||| | |||||||||| ||||||  | || || |  | ||||||| |||||||||| |||||||||| |  |||||||| || | |||||||| | ||| ||||||||||||| |||||| |||||||||||  | |||| || |||||||||| || |||| |||||||  |||||||||||||||| ||||| |||   |||  |||||  || |||| ||| ||| |||| || || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6633805|ref|NM_005332.2|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, zeta (HBZ), mRNA</Hit_def>
+  <Hit_accession>NM_005332</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.674</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>5.48516e-51</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GAGGCCCTGGAGAGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAGGGC-CACGGCAAGAAGGTGGCCGACGCGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCCGCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCT</Hsp_qseq>
+      <Hsp_hseq>GAGACTCTGGAGAGGCTCTTCCTCAGCCACCCGCAGACCAAGACCTACTTCCCGCACTTCGACCTGCACCCGGGGTCCGCGCA-GTTGCGCGCGCACGGCTCCAAGGTGGTGGCCGCCGTGGGCGACGCGGTGAAGAGCATCGACGACATCGGCGGCGCCCTGTCCAAGCTGAGCGAGCTGCACGCCTACATCCTGCGCGTGGACCCGGTCAACTTCAAGCTCCTGTCCCACTGCCTGCTGGTCACCCTGGCCGCGCGCTTCCCCGCCGACTTCACGGCCGAGGCCCACGCCGCCTGGGACAAGTTCCT</Hsp_hseq>
+      <Hsp_midline>||| | ||||||||| | |||||   |  |||    ||||||||||||||||||||||||||||||  ||  || || || || |||  | || ||||||   |||||||  | |||  ||  | |||| |||  |  | | ||||||||   |  ||| ||||||   |||||||| ||||||||  |||  || || ||||||||||||||||||||||||||   ||||||||||||||| ||||||||||| | | |||||||||| |||||  | | ||  |||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|183799|gb|M22814.1|HUMHBADY2</Hit_id>
+  <Hit_def>Human alpha-hemoglobin gene, exon 2</Hit_def>
+  <Hit_accession>M22814</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.949</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>6.6882e-31</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAG</Hsp_qseq>
+      <Hsp_hseq>AGGATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCTGAGCCACGGCTCTGCCCAGGTTAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|120660063|gb|BC130457.1|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, gamma G, mRNA (cDNA clone MGC:163329 IMAGE:40146488), complete cds</Hit_def>
+  <Hit_accession>BC130457</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.18832e-05</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACC---CTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCT</Hsp_qseq>
+      <Hsp_hseq>CTGAGTGAACTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAGCTCCT-GGGAAATG--TGCTGGTGACCGTTTTGGCAATCCATTTCGGCAAAGAATTCACCCCTGAGGTGCAGGCTTCCTGGCAGAAGATGGTGACTGGAGTGGCCAGTGCCCTGTCCTCCAGATACCACTGAGCT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||    ||||||| |  ||||| || |  ||||||||||||||  |  | ||  |||||||||||    ||||   |||  ||  |   || |||||||||| |||||| || |||  | | ||| |  || ||   |||  ||  |  ||| |||||| |||||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|15012033|gb|BC010914.1|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, gamma A, mRNA (cDNA clone MGC:13466 IMAGE:4134713), complete cds</Hit_def>
+  <Hit_accession>BC010914</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.1907</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.18832e-05</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>498</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>CTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACC---CTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTGTGAGCACCGTGCTGACCTCCAAATACCGTTAAGCT</Hsp_qseq>
+      <Hsp_hseq>CTGAGTGAACTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAGCTCCT-GGGAAATG--TGCTGGTGACCGTTTTGGCAATCCATTTCGGCAAAGAATTCACCCCTGAGGTGCAGGCTTCCTGGCAGAAGATGGTGACTGGAGTGGCCAGTGCCCTGTCCTCCAGATACCACTGAGCT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||    ||||||| |  ||||| || |  ||||||||||||||  |  | ||  |||||||||||    ||||   |||  ||  |   || |||||||||| |||||| || |||  | | ||| |  || ||   |||  ||  |  ||| |||||| |||||  | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|183397884|gb|EF103274.2|</Hit_id>
+  <Hit_def>Homo sapiens amyloid beta A4 precursor protein-binding family B member 1 transcript variant 3 (APBB1) mRNA, complete cds, alternatively spliced</Hit_def>
+  <Hit_accession>EF103274</Hit_accession>
+  <Hit_len>1972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0113358</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>1934</Hsp_hit-from>
+      <Hsp_hit-to>1972</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>AATAAAGTCTGAGTGGGCAGCAAAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>AATAAAGTCTGTCTGCACTGCAAAAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||  | ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|28302129|ref|NM_005330.3|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, epsilon 1 (HBE1), mRNA</Hit_def>
+  <Hit_accession>NM_005330</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0113358</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>CTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGG-ACAAGTTCCTGGCTTCTGT</Hsp_qseq>
+      <Hsp_hseq>CTGAGTGAGCTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAGCTCCTGGGTAACGTGATGGTGATTATTCTGGCTACTCACTTTGGCAAGGAGTTCACCCCTGAAGTGCA-GGCTGCCTGGCAGAAGCTGGTGTCTGCTGT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||    ||||||| |  ||||| || |  ||||||||||||||  |  ||    || || | |  |||||  | ||| |   |   |||||||||||||  ||||| | || ||||| | ||| |  || || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|34190424|gb|BC015537.2|</Hit_id>
+  <Hit_def>Homo sapiens hemoglobin, epsilon 1, mRNA (cDNA clone MGC:9582 IMAGE:3884290), complete cds</Hit_def>
+  <Hit_accession>BC015537</Hit_accession>
+  <Hit_len>919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0113358</Hsp_evalue>
+      <Hsp_query-from>316</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>610</Hsp_hit-from>
+      <Hsp_hit-to>758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>CTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTTCAAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGCCGAGTTCACCCCTGCGGTGCACGCCTCCCTGG-ACAAGTTCCTGGCTTCTGT</Hsp_qseq>
+      <Hsp_hseq>CTGAGTGAGCTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAGCTCCTGGGTAACGTGATGGTGATTATTCTGGCTACTCACTTTGGCAAGGAGTTCACCCCTGAAGTGCA-GGCTGCCTGGCAGAAGCTGGTGTCTGCTGT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||    ||||||| |  ||||| || |  ||||||||||||||  |  ||    || || | |  |||||  | ||| |   |   |||||||||||||  ||||| | || ||||| | ||| |  || || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|548923956|ref|NM_001257319.2|</Hit_id>
+  <Hit_def>Homo sapiens amyloid beta (A4) precursor protein-binding, family B, member 1 (Fe65) (APBB1), transcript variant 9, mRNA</Hit_def>
+  <Hit_accession>NM_001257319</Hit_accession>
+  <Hit_len>2026</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.68238</Hsp_evalue>
+      <Hsp_query-from>584</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>1990</Hsp_hit-from>
+      <Hsp_hit-to>2026</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>AATAAAGTCTGAGTGGGCAGCAAAAAAAAAAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>AATAAAGTCTGTCTGCACTGCTAAAAAAAAAAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||  | || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>798774</Statistics_db-num>
+      <Statistics_db-len>1842529971</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

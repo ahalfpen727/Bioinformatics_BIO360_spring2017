@@ -1,0 +1,29 @@
+* unsorted
+  - [ ] 
+
+* Learning outcomes, tactics
+  - [ ] product rule
+  - [ ] independence
+  - [ ] discrete only
+  - [ ] focus on searching DNA sequences
+  - [ ] Bayes rule
+  - [ ] conditional probability
+  - [ ] need very interactive materials
+  - [ ] formally define frequentist probability
+  - [ ] relate to simple genetics experiment
+  - [ ] permutations, factorials
+  - [ ] independence?  (usually confusing)
+  - [ ] 1-p
+  - [ ] joint probability of multiple diseases
+  - [ ] joint probability of someone in Bio-360 losing data
+  - [ ] PSSM
+  - [ ] forensic DNA evidence
+
+
+* Overview
+
+
+
+
+TATAAA
+
